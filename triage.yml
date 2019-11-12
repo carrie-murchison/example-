@@ -1,0 +1,13 @@
+# Example configuration for triagebot
+
+# Place this file in the `.github` folder of your repo 
+
+# Use labels that begin with `size-` to triage issues (eg: `size-s`, `size-m`)
+# Set to `false` to disable
+size: true
+
+# List of users or teams to @mention to help triage
+# Set to 'false' to disable
+mention:
+  - eyesonthefries
+  - philipbremer
